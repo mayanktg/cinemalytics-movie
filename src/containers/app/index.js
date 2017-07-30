@@ -8,8 +8,8 @@ const App = () => (
   <div>
     <main>
       <Route exact path="/" component={HomeContainer} />
-      <Route path="/actor/:actor_id" component={ActorContainer} />
-      <Route path="/movie/:movie_id" component={MovieContainer} />
+      <Route exact path="/actor/:actor_id" component={ActorContainer} />
+      <Route exact path="/movie/:movie_id" component={MovieContainer} />
     </main>
   </div>
 )
