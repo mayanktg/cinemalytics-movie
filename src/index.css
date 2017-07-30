@@ -8,8 +8,134 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  /*background-color: #000;*/
 }
 
 button:disabled {
   opacity: 0.5;
 }
+
+.home-section {
+  /*background-image: url('./static/images/home-hero-desktop.jpg');*/
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  padding-top: 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+h3 {
+  margin: 0;
+  padding: 20px;
+  color: #9d6631;
+  font-size: 24px;
+}
+
+.home-section-slider-box {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.home-actor-block {
+  height: 300px;
+  width: 200px;
+  background-size: cover;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.home-actor-block-mobile {
+  height: 60vh;
+  width: 80vw;
+  background-size: cover;
+}
+
+.home-actor-block-data {
+  bottom: 0;
+  position: absolute;
+  width: 205px;
+  text-align: left;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.home-actor-block-data-title {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.home-actor-block-data-rating {
+  text-align: left;
+}
+
+
+/* Actor page */
+.actor-section {
+  background-size: cover;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.actor-movies-section {
+  background-color: #000;
+  background-size: cover;
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.actor-section-img {
+  display: block;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.actor-details-block {
+  display: inline-block;
+}
+
+.actor-details-block-name {
+  color: #fff;
+  font-size: 28px;
+  padding: 16px;
+}
+
+.actor-movie-section-block {
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.actor-movie-section-block:hover > .home-actor-movie-data {
+  background-color: rgba(0,0,0, 0.6);
+  visibility: visible;
+}
+
+.home-actor-movie-data {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  visibility: hidden;
+}
+
+.home-actor-movie-data-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 100px;
+}
+
+.movie-frame {
+  height: 400px;
+  width: 850px;
+}
+
+.movie-frame-mobile {
+  height: 100%;
+  width: 75vw;
+}
+
+
