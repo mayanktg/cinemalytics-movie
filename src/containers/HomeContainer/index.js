@@ -20,7 +20,7 @@ class Home extends Component {
   }
 
   getActorData(actorType) {
-    fetch(`${config.apiUrl}/analytics/${actorType}ActorsByHighestRating/responseonrequest?authtoken${config.cinemalyticsToken}`)
+    fetch(`${config.apiUrl}/analytics/${actorType}ActorsByHighestRating/?auth_token=${config.cinemalyticsToken}`)
       .then((result) => {
         return result.json();
       })

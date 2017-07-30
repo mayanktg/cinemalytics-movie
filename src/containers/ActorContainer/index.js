@@ -78,7 +78,7 @@ class ActorContainer extends Component {
                       
                     </div>
                   </div>
-                  </a>
+                </a>
               );
             })
           }
